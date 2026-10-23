@@ -1,0 +1,6 @@
+{
+  "name": "SMRITI-SAATHI - Memory Support & Cognitive Gaming",
+  "description": "An AI-assisted memory-support and cognitive gaming platform for elderly people with memory difficulties and their caregivers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
