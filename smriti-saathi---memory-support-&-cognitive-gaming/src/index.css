@@ -48,3 +48,80 @@
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
+
+
+/* Smriti-Saathi responsive preferences and accessible touch targets */
+.ss-preferences {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem auto;
+  width: min(100% - 1.5rem, 80rem);
+  background: #fff;
+  border: 1px solid #e9d5ff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgb(30 41 59 / 5%);
+}
+.ss-preference-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4c1d95;
+}
+.ss-preference-field select,
+.ss-preference-field input[type="time"] {
+  min-height: 44px;
+  min-width: 130px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d8b4fe;
+  border-radius: 0.65rem;
+  background: #fff;
+  color: #1e293b;
+  font: inherit;
+}
+.ss-reminder-toggle {
+  flex-direction: row;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.25rem 0.5rem;
+}
+.ss-reminder-toggle input {
+  width: 20px;
+  height: 20px;
+  accent-color: #6d28d9;
+}
+.ss-notification-button {
+  min-height: 44px;
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.65rem;
+  background: #6d28d9;
+  color: #fff;
+  font-weight: 700;
+}
+.ss-notification-button:hover { background: #5b21b6; }
+.ss-notification-status {
+  flex-basis: 100%;
+  margin: 0;
+  color: #4c1d95;
+  font-size: 0.875rem;
+}
+@media (max-width: 640px) {
+  .ss-preferences {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.65rem;
+    width: calc(100% - 1rem);
+    padding: 0.8rem;
+    margin: 0.5rem auto;
+  }
+  .ss-preference-field select,
+  .ss-preference-field input[type="time"],
+  .ss-notification-button { width: 100%; }
+  main { min-width: 0; }
+  table { min-width: 620px; }
+  button, input, select, textarea { touch-action: manipulation; }
+}
