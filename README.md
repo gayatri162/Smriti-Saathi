@@ -1,115 +1,120 @@
-🧠 Smriti-Saathi — Memory Support & Cognitive Gaming
+🧠 Smriti-Saathi
 
-Smriti-Saathi is a web-based memory support platform designed to support cognitive engagement through interactive games, personal memories, reminders, and progress tracking.
+Memory Support & Cognitive Gaming Platform
 
-The project aims to provide a simple, accessible, and user-friendly experience for people who want to practise memory-related activities and for caregivers who want to monitor progress.
+Making memory practice engaging, accessible, and meaningful.
 
-✨ Features
+Smriti-Saathi is a web-based memory support platform developed to encourage cognitive engagement through interactive games, personal memories, daily reminders, and activity tracking.
 
-* 🧩 Cognitive Games: Interactive memory-matching and sequence-recall activities.
-* 📊 Progress Tracking: Record and review game scores and activity history.
-* 🔔 Reminders: Organise daily reminders and routines.
-* 💭 Personal Memories: Keep meaningful memories accessible.
-* 👥 Caregiver Dashboard: Support caregiver access to assigned patient activity.
-* 🔐 Authentication: Sign up and sign in using Supabase Authentication.
-* 🌐 Language Support: Language selection for a more accessible experience.
-* 📱 Responsive Interface: Designed with usability across different screen sizes in mind.
+The platform aims to provide an accessible digital environment for individuals who want to practise memory-related activities while allowing caregivers to monitor assigned users’ activities and progress.
 
-Note: Features such as complete multilingual translation, spoken-language support, and browser notifications may require additional implementation and testing.
+Developed as a team project during CodeArambh 2.0 – a 24-Hour Hackathon at HiTech College.
 
-🛠️ Tech Stack
+⸻
 
-* Frontend: React, TypeScript
-* Build Tool: Vite
-* Styling: CSS and Tailwind CSS
-* Backend / Database: Supabase
-* Authentication: Supabase Auth
-* Version Control: Git and GitHub
+🎯 Problem Statement
 
-📁 Project Structure
+Memory-related difficulties can make everyday activities, routine management, and recalling meaningful experiences challenging.
 
-smriti-saathi---memory-support-&-cognitive-gaming/
-├── src/
-│   ├── services/
-│   │   └── supabase.ts
-│   ├── App.tsx
-│   └── index.css
-├── index.html
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+Existing digital solutions may not always combine cognitive exercises, personal memory preservation, reminders, and caregiver support in one simple interface.
 
-🚀 Getting Started
+Smriti-Saathi aims to address this gap by bringing these functionalities together in a single, user-friendly platform.
 
-Prerequisites
+⸻
 
-* Node.js and npm
-* A Supabase account
-* Git
+✨ Key Features
 
-1. Clone the Repository
+🧩 1. Cognitive Games
 
-git clone https://github.com/gayatri162/Smriti-Saathi.git
+* Interactive memory-matching activities.
+* Sequence-recall exercises.
+* Engaging activities designed to encourage memory practice.
+* Score recording and activity feedback.
 
-2. Open the Project Directory
+📊 2. Progress Tracking
 
-cd Smriti-Saathi/smriti-saathi---memory-support-\&-cognitive-gaming
+* Track game performance and scores.
+* Review previous activity records.
+* Monitor cognitive game participation over time.
 
-If the directory name differs in the repository, navigate into the folder containing package.json.
+🔔 3. Daily Reminders
 
-3. Install Dependencies
+* Organise important daily activities.
+* Maintain personal routines.
+* Keep track of reminders and scheduled tasks.
 
-npm install
+💭 4. Personal Memories
 
-4. Configure Environment Variables
+* Store meaningful personal memories.
+* Keep important information accessible.
+* Create a personalised memory-support space.
 
-Create a .env file in the directory containing package.json.
+👥 5. Caregiver Dashboard
 
-Add your Supabase project URL and publishable/anon key using the variable names expected by src/services/supabase.ts.
+* Provide a dedicated caregiver experience.
+* Support access to assigned users’ activity.
+* Help caregivers review progress and engagement.
 
-For example, if the code uses Vite environment variables:
+🔐 6. Authentication
 
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_publishable_or_anon_key
+* User registration and sign-in.
+* Supabase Authentication integration.
+* Protected user access.
 
-Important: Never commit .env or expose your Supabase service-role/secret key in frontend code.
+🌐 7. Language Accessibility
 
-5. Start the Development Server
+* Language selection interface.
+* Designed with accessibility and ease of use in mind.
+* Additional translation and spoken-language support can be developed further.
 
-npm run dev
+📱 8. Responsive Interface
 
-Open the local URL printed in the terminal.
+* User-friendly web interface.
+* Designed for different screen sizes.
+* Simple navigation and accessible layouts.
 
-🗄️ Supabase Setup
+⸻
 
-1. Create a Supabase project.
-2. Configure Authentication.
-3. Create the database tables required by the application.
-4. Configure Row Level Security (RLS) policies.
-5. Add the appropriate environment variables locally.
+🛠️ Technology Stack
 
-The exact table structure and policies should match the SQL and queries used by the current application.
+Technology	Purpose
+React	Frontend development
+TypeScript	Type safety and application logic
+Vite	Development server and build tool
+CSS	UI styling
+Tailwind CSS	Utility-based styling
+Supabase	Backend services and database
+Supabase Auth	User authentication
+Git	Version control
+GitHub	Repository management
 
-👩‍💻 Team Collaboration
+⸻
 
-This project is maintained using Git and GitHub.
+🔮 Future Enhancements
 
-🔒 Security
+The platform can be extended with additional capabilities, including:
 
-* Keep .env out of version control.
-* Never expose service-role keys in client-side code.
-* Use appropriate Supabase RLS policies to protect patient and caregiver data.
-* Avoid entering real patient or sensitive personal information during demonstrations.
+* Complete multilingual translation.
+* Voice-based interaction and spoken reminders.
+* Browser notifications.
+* More advanced cognitive games.
+* Personalised activity recommendations.
+* Enhanced caregiver reports and progress visualisation.
+* Improved accessibility for elderly users.
+* Additional memory-support activities.
 
-🎯 Project Goal
+⸻
 
-To make memory-related activities more engaging and accessible through cognitive games, personal memories, reminders, and progress tracking.
+🏆 Hackathon Project
 
-📌 Project Status
+Event: CodeArambh
+Duration: 24 Hours
+Venue: HiTech
+Project: Smriti-Saathi – Memory Support & Cognitive Gaming
 
-Developed as a team project for a hackathon. Features and integrations are being implemented and tested.
+Smriti-Saathi was developed as a collaborative hackathon project with the objective of exploring how technology can make cognitive engagement and everyday memory support more accessible.
+
+⸻
 
 📄 License
 
