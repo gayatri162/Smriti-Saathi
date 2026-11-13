@@ -10,6 +10,12 @@ The platform aims to provide an accessible digital environment for individuals w
 
 Developed as a team project during CodeArambh 2.0 – a 24-Hour Hackathon at HiTech College.
 
+🌐 Live Demo
+
+🚀 Explore Smriti-Saathi: [![Live Demo](https://smriti-saathi-two.vercel.app/)
+
+Experience the platform and explore its cognitive games, personal memories, reminders, and other features.
+
 ⸻
 
 🎯 Problem Statement
@@ -118,4 +124,4 @@ Smriti-Saathi was developed as a collaborative hackathon project with the object
 
 📄 License
 
-This project is licensed under [MIT License](License) 
+This project is licensed under [MIT License](LICENSE) 
