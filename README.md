@@ -118,3 +118,4 @@ Smriti-Saathi was developed as a collaborative hackathon project with the object
 
 📄 License
 
+This project is licensed under [MIT License](License) 
